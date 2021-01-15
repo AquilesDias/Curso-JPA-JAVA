@@ -1,0 +1,22 @@
+INDEX VERSION 1.131+/home/aquiles/JavaEE-work/.metadata/.plugins/org.eclipse.jdt.core
+2633324904.index
+3934569240.index
+1477857131.index
+2542389244.index
+1262695427.index
+3161698517.index
+564641438.index
+1958427664.index
+4268710537.index
+1287818292.index
+2692143769.index
+922341655.index
+3525465051.index
+2961975264.index
+1619127212.index
+4027434352.index
+638924711.index
+984633404.index
+3573918777.index
+3113713673.index
+4075145001.index
