@@ -13,12 +13,14 @@ public class NovoUsuario {
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("exercicios-jpa") ;
 		EntityManager em = emf.createEntityManager();
 		
-        Usuario novoUsuario = new Usuario("Heryka Brandao", "brandaoHery@gmail.com");
+        Usuario novoUsuario = new Usuario("Lucas", "lucaslincon@gmail.com");
+        novoUsuario.setId(1L);
         
         em.getTransaction().begin();
         em.persist(novoUsuario);
         em.getTransaction().commit();
-       
+        
+        
 		em.close();
 		emf.close();
 	}

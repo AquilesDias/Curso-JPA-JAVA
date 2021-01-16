@@ -8,18 +8,18 @@
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
         <class>modelo.basico.Usuario</class>
+        
 		<properties>
 
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
-			<property name="javax.persistence.jdbc" value="jdbc:mysql://localhost/cursoJava_bd" />
-			<property name="javax.persistence.jdbc" value="root" />
-			<property name="javax.persistence.jdbc" value="admin" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/cursoJava_bd" />
+			<property name="javax.persistence.jdbc.user" value="root" />
+			<property name="javax.persistence.jdbc.password" value="admin" />
 			
 			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL57Dialect"/>
 			<property name="hibernate.show_sql" value="true"/>
 			<property name="hibernate.format_sql" value="true"/>
-			<property name="hibernate.hbm2ddl.auto" value="update"/>
-			
+			<property name="hibernate.hbm2ddl.auto" value="update"/>	
 
 		</properties>
 

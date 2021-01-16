@@ -5,16 +5,15 @@
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
 	<persistence-unit name="exercicios-jpa">
 
-		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+		<provider>org.hibernate.jpa.HibernateersistenceProvider</provider>
 
         <class>modelo.basico.Usuario</class>
-        
 		<properties>
 
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
-			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/cursoJava_bd" />
-			<property name="javax.persistence.jdbc.user" value="root" />
-			<property name="javax.persistence.jdbc.password" value="admin" />
+			<property name="javax.persistence.jdbc" value="jdbc:mysql://localhost/cursojavaJpa_bd" />
+			<property name="javax.persistence.jdbc" value="root" />
+			<property name="javax.persistence.jdbc" value="admin" />
 			
 			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL57Dialect"/>
 			<property name="hibernate.show_sql" value="true"/>
