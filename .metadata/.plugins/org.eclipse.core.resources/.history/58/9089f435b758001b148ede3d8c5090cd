@@ -18,7 +18,6 @@ public class AlterarUsuario2 {
 		
 		Usuario usuario = em.find(Usuario.class, 6L);
 		usuario.setNome("Herykca Brandao");
-		
 		em.getTransaction().commit();
 		
 		em.close();

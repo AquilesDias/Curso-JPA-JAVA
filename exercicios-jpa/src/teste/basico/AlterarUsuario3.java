@@ -6,10 +6,9 @@ import javax.persistence.Persistence;
 
 import modelo.basico.Usuario;
 
-public class AlterarUsuario2 {
-	
+public class AlterarUsuario3 {
+
 	public static void main(String[] args) {
-		
 		
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("exercicios-jpa");
 		EntityManager em = emf.createEntityManager();
@@ -17,14 +16,13 @@ public class AlterarUsuario2 {
 		em.getTransaction().begin();
 		
 		Usuario usuario = em.find(Usuario.class, 6L);
-		usuario.setNome("Herykca Brandao");
-		
+		em.detach(usuario);
+		usuario.setNome("Heryka Brandão");
+
+		//em.merge(usuario); //torna o estado gerenciado.
 		em.getTransaction().commit();
 		
 		em.close();
 		emf.close();
-		
-		
-		}
-
+	}
 }
