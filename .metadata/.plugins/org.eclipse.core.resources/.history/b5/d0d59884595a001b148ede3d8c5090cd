@@ -1,0 +1,12 @@
+package teste.basico;
+
+import infra.DAO;
+import modelo.basico.Produto;
+
+public class NovoProduto {
+
+	Produto produto = new Produto("Caneta", 2.75);
+	
+	DAO<Produto> dao = new DAO<>(Produto.class);
+	
+}
