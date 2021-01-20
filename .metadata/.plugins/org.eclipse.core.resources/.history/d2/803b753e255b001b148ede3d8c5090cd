@@ -11,9 +11,6 @@
         <class>modelo.basico.Produto</class>
         <class>modelo.umpraum.Cliente</class>
         <class>modelo.umpraum.Assento</class>
-        <class>modelo.umpramuitos.ItemPedido</class>
-        <class>modelo.umpramuitos.Pedido</class>
-        
         
 		<properties>
 
