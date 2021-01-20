@@ -52,10 +52,6 @@ public class DAO<D> {
 		return this.abrirT().incluir(entidade).fecharT();
 	}
 	
-	public D obterPorID(Object id) {
-		return em.find(classe, id);
-	}
-	
 	public List<D> obterTodos(){
 		return this.obterTodos(10,0);
 	}
