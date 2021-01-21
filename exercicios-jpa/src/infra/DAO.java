@@ -74,6 +74,15 @@ public class DAO<D> {
 		
 	}
 	
+	public List<D> consultar(String nomeConsulta, Object...params){
+		TypedQuery<D> query = em.createNamedQuery(nomeConsulta, classe);
+		
+		for(int i = 0; i< params.length; i +=2 ) {
+			query.setParameter(params[i].toString(), params[i +1]);
+		}
+		return query.getResultList();
+	}
+	
 	public void fechar() { //fechar o DAO
 		em.close();
 	}

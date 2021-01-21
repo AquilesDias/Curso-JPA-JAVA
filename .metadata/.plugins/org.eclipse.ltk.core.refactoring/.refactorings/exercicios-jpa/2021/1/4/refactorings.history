@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;consultas.xml&apos; to &apos;META-INF&apos;" description="Move &apos;consultas.xml&apos; to &apos;META-INF&apos;" destination="src/META-INF" element1="src/teste/muitospramuitos/consultas.xml" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1611228628065" updateReferences="true"/>
+</session>

@@ -9,7 +9,7 @@ public class NovoFilmeAtor {
 	public static void main(String[] args) {
 		
 		
-		Filme filmeA = new Filme("Harry Potter e o Enigma" ,89.56);
+		Filme filmeA = new Filme("Harry Potter e a camera secreta" ,100.56);
 		
 		Ator atorA = new Ator("Harry");
 		Ator atorB = new Ator("Hermione");
