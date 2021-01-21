@@ -14,13 +14,13 @@
   <named-native-query name="obterMediaFilme" result-set-mapping="NotaFilmeMap">
   <query>
   
-       select avg(nota) as media from tb_filmes;
+       select avg(nota) as media from filmes;
   
   </query>
   </named-native-query>
   
   <sql-result-set-mapping name="NotaFilmeMap">
-  <constructor-result target-class="modelo.consulta.NotaFilme">
+  <constructor-result target-class="modelo.consulta.NotaFilme.java">
   
        <column name="media" class="java.lang.Double"/>
        

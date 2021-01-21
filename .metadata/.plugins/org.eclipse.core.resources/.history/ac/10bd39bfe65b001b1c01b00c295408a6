@@ -1,0 +1,14 @@
+package teste;
+
+import infra.DAO;
+import modelo.muitospramuitos.Filme;
+
+public class ObterMedia {
+	
+	public static void main(String[] args) {
+		
+		
+		DAO<Filme> filmes = DAO<>(Filme.class);
+	}
+
+}

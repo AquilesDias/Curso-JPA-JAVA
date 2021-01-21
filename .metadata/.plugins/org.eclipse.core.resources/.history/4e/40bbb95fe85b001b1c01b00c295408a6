@@ -20,7 +20,7 @@
   </named-native-query>
   
   <sql-result-set-mapping name="NotaFilmeMap">
-  <constructor-result target-class="modelo.consulta.NotaFilme">
+  <constructor-result target-class="modelo.consulta.NotaFilme.java">
   
        <column name="media" class="java.lang.Double"/>
        

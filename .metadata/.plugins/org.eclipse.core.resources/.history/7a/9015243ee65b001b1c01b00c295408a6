@@ -11,12 +11,8 @@
   </named-query>
   
   
-  <named-native-query name="obterMediaFilme" result-set-mapping="NotaFilmeMap">
-  <query>
-  
-       select avg(nota) as media from tb_filmes;
-  
-  </query>
+  <named-native-query name="obterMediaFilme" result-set-mapping="NotaFilme">
+  <query></query>
   </named-native-query>
   
   <sql-result-set-mapping name="NotaFilmeMap">

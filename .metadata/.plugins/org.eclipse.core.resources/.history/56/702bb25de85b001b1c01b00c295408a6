@@ -4,7 +4,7 @@
   <named-query name="obterFilmesNotaMaior">
   <query>
   
-         select distinct f from Filme f  
+         select distinct f from tb_filmes f  
          join fetch f.atores
          where f.nota > :nota
   </query>
@@ -20,7 +20,7 @@
   </named-native-query>
   
   <sql-result-set-mapping name="NotaFilmeMap">
-  <constructor-result target-class="modelo.consulta.NotaFilme">
+  <constructor-result target-class="modelo.consulta.NotaFilme.java">
   
        <column name="media" class="java.lang.Double"/>
        

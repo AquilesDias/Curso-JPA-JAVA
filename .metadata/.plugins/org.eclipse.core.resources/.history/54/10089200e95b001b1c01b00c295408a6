@@ -14,7 +14,7 @@
   <named-native-query name="obterMediaFilme" result-set-mapping="NotaFilmeMap">
   <query>
   
-       select avg(nota) as media from tb_filmes;
+       select avg(nota) as media from filmes;
   
   </query>
   </named-native-query>
