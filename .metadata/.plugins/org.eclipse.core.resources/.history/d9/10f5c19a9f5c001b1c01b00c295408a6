@@ -1,0 +1,9 @@
+package modelo.composicao;
+
+public class Endereco {
+	
+	
+	private String complemento;
+	private String logradouro;
+
+}
