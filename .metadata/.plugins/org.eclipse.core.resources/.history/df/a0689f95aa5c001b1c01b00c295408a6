@@ -29,7 +29,6 @@
         <class>modelo.composicao.Funcionario</class>
         
         <class>modelo.heranca.Aluno</class>
-        <class>modelo.heranca.AlunoBolsista</class>
         
         
         
