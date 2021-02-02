@@ -1,7 +1,0 @@
-package modelo.heranca;
-
-@Entity
-public class AlunoBolsista extends Aluno{
-
-	
-}

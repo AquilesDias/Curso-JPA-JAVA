@@ -1,8 +1,0 @@
-package modelo.composicao;
-
-
-@Entity
-@Table(name="tb_fornecedor")
-public class Fornecedor {
-
-}

@@ -1,9 +1,0 @@
-package modelo.umpraum;
-
-@Entity
-@Table(name = "tb_assento")
-public class Assento {
-	
-	private 
-
-}
