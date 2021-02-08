@@ -2092,3 +2092,100 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:j
 2021-02-08 15:43:41,977 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-02-08 15:43:41,977 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2021-02-08 15:43:41,977 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/aquiles/JavaEE-work/exercicios-sb/src/test/resources
+2021-02-08 15:48:59,907 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-08 15:48:59,908 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-08 15:48:59,908 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-08 15:48:59,913 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-08 15:48:59,916 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-08 15:48:59,916 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-08 15:48:59,916 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/aquiles/JavaEE-work/exercicios-sb/src/test/resources
+2021-02-08 16:00:58,114 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-08 16:00:58,114 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-08 16:00:58,115 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-08 16:00:58,140 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-08 16:00:58,143 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-08 16:00:58,143 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-08 16:00:58,143 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/aquiles/JavaEE-work/exercicios-sb/src/test/resources
+2021-02-08 16:05:43,028 [Worker-117: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.cod3r:exercicios-sb:0.0.1-SNAPSHOT @ /home/aquiles/JavaEE-work/exercicios-sb/pom.xml.
+2021-02-08 16:05:44,445 [Worker-117: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/2.4.2/spring-boot-starter-validation-2.4.2.pom
+2021-02-08 16:05:44,802 [Worker-117: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/2.4.2/spring-boot-starter-validation-2.4.2.pom
+2021-02-08 16:05:44,966 [Worker-117: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/6.1.7.Final/hibernate-validator-6.1.7.Final.pom
+2021-02-08 16:05:45,140 [Worker-117: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/6.1.7.Final/hibernate-validator-6.1.7.Final.pom
+2021-02-08 16:05:45,300 [Worker-117: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator-parent/6.1.7.Final/hibernate-validator-parent-6.1.7.Final.pom
+2021-02-08 16:05:45,662 [Worker-117: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator-parent/6.1.7.Final/hibernate-validator-parent-6.1.7.Final.pom
+2021-02-08 16:05:46,164 [Worker-117: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/arquillian/arquillian-bom/1.6.0.Final/arquillian-bom-1.6.0.Final.pom
+2021-02-08 16:05:46,351 [Worker-117: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/arquillian/arquillian-bom/1.6.0.Final/arquillian-bom-1.6.0.Final.pom
+2021-02-08 16:05:46,519 [Worker-117: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/shrinkwrap-bom/1.2.6/shrinkwrap-bom-1.2.6.pom
+2021-02-08 16:05:46,676 [Worker-117: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/shrinkwrap-bom/1.2.6/shrinkwrap-bom-1.2.6.pom
+2021-02-08 16:05:46,842 [Worker-117: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-bom/3.1.4/shrinkwrap-resolver-bom-3.1.4.pom
+2021-02-08 16:05:47,027 [Worker-117: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-bom/3.1.4/shrinkwrap-resolver-bom-3.1.4.pom
+2021-02-08 16:05:47,216 [Worker-117: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.6.3/maven-3.6.3.pom
+2021-02-08 16:05:47,396 [Worker-117: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.6.3/maven-3.6.3.pom
+2021-02-08 16:05:47,567 [Worker-117: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-bom/2.0.0/shrinkwrap-descriptors-bom-2.0.0.pom
+2021-02-08 16:05:47,724 [Worker-117: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-bom/2.0.0/shrinkwrap-descriptors-bom-2.0.0.pom
+2021-02-08 16:05:47,898 [Worker-117: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.pom
+2021-02-08 16:05:48,096 [Worker-117: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.pom
+2021-02-08 16:05:48,352 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/2.4.2/spring-boot-starter-validation-2.4.2.jar
+2021-02-08 16:05:48,534 [AetherRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar
+2021-02-08 16:05:48,768 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/6.1.7.Final/hibernate-validator-6.1.7.Final.jar
+2021-02-08 16:05:48,963 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/2.4.2/spring-boot-starter-validation-2.4.2.jar
+2021-02-08 16:05:49,215 [AetherRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar
+2021-02-08 16:05:52,315 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/6.1.7.Final/hibernate-validator-6.1.7.Final.jar
+2021-02-08 16:05:52,835 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-08 16:05:52,835 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-08 16:05:52,838 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-08 16:05:52,839 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-08 16:05:52,842 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-08 16:05:52,842 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-08 16:05:52,842 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/aquiles/JavaEE-work/exercicios-sb/src/test/resources
+2021-02-08 16:05:54,501 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-08 16:05:54,501 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-08 16:05:54,501 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-08 16:05:54,538 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-08 16:05:54,546 [Worker-120: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/2.4.2/spring-boot-starter-validation-2.4.2-sources.jar
+2021-02-08 16:05:54,557 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-08 16:05:54,557 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-08 16:05:54,557 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/aquiles/JavaEE-work/exercicios-sb/src/test/resources
+2021-02-08 16:05:54,927 [Worker-120: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/2.4.2/spring-boot-starter-validation-2.4.2-sources.jar
+2021-02-08 16:05:55,004 [Worker-120: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-validation:2.4.2
+2021-02-08 16:05:55,766 [Worker-120: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/6.1.7.Final/hibernate-validator-6.1.7.Final-sources.jar
+2021-02-08 16:05:56,879 [Worker-120: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/6.1.7.Final/hibernate-validator-6.1.7.Final-sources.jar
+2021-02-08 16:05:56,894 [Worker-120: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.validator:hibernate-validator:6.1.7.Final
+2021-02-08 16:05:57,640 [Worker-120: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2-sources.jar
+2021-02-08 16:05:58,066 [Worker-120: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2-sources.jar
+2021-02-08 16:05:58,080 [Worker-120: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.validation:jakarta.validation-api:2.0.2
+2021-02-08 16:05:58,359 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-08 16:05:58,359 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-08 16:05:58,359 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-08 16:05:58,359 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-08 16:05:58,361 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-08 16:05:58,361 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-08 16:05:58,361 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/aquiles/JavaEE-work/exercicios-sb/src/test/resources
+2021-02-08 16:06:11,137 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-08 16:06:11,137 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-08 16:06:11,138 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-08 16:06:11,162 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-08 16:06:11,165 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-08 16:06:11,165 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-08 16:06:11,165 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/aquiles/JavaEE-work/exercicios-sb/src/test/resources
+2021-02-08 16:06:48,256 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-08 16:06:48,256 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-08 16:06:48,257 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-08 16:06:48,284 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-08 16:06:48,287 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-08 16:06:48,288 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-08 16:06:48,288 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/aquiles/JavaEE-work/exercicios-sb/src/test/resources
+2021-02-08 16:09:40,113 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-08 16:09:40,113 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-08 16:09:40,113 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-08 16:09:40,135 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-08 16:09:40,138 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-08 16:09:40,138 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-08 16:09:40,138 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/aquiles/JavaEE-work/exercicios-sb/src/test/resources
+2021-02-08 17:08:58,960 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-08 17:08:58,960 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-08 17:08:58,961 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-08 17:08:58,986 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-08 17:08:58,989 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-08 17:08:58,990 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-08 17:08:58,990 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/aquiles/JavaEE-work/exercicios-sb/src/test/resources
