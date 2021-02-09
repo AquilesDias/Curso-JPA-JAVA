@@ -5,6 +5,8 @@ import java.util.Optional;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -48,6 +50,14 @@ public class ProdutoController {
 	@DeleteMapping(path="/{id}")
 	public void excluirProduto(@PathVariable int id) {
 		 produtoRepository.deleteById(id);
+	}
+	
+	//Consulta paginada
+	@GetMapping(path="/pagina/{numeroPagina}/{qtdPag}")
+	public Iterable<Produto> produtoPorPagina(@PathVariable int numeroPagina, @PathVariable int qtdPag){
+		if(qtdPag >= 5) qtdPag = 5;
+		Pageable page = PageRequest.of(numeroPagina, qtdPag);// pagina/elemento por pagina
+		return produtoRepository.findAll(page);
 	}
 
 }
