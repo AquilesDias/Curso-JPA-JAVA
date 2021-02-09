@@ -6,5 +6,7 @@ import br.com.cod3r.exerciciossb.models.entities.Produto;
 
 public interface ProdutoRepository extends PagingAndSortingRepository<Produto, Integer>{
 
-	//Usavamos o CrudRepository.
+	//Extendíamos o CrudRepository.
+	
+	public Iterable<Produto> findByNome(String nome);
 }

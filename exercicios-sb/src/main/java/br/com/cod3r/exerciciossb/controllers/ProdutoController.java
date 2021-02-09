@@ -42,6 +42,11 @@ public class ProdutoController {
 		return produtoRepository.findById(id);
 	}
 	
+	@GetMapping(path="/nome/{nome}")
+	public Iterable<Produto> obterProdutoPorNome(@PathVariable String nome){
+		return produtoRepository.findByNome(nome);
+	}
+	
 //	@PutMapping
 //	public Produto alterarProduto(@Valid Produto produto) {
 //		return produtoRepository.save(produto);
